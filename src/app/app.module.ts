@@ -9,6 +9,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select'; 
 import { PokeService } from   './poke.service';
 import { SearchComponent } from './search/search.component' ; 
+import { FormsModule } from '@angular/forms' ; 
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SearchComponent } from './search/search.component' ;
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
+    FormsModule
    ],
   providers: [PokeService],
   bootstrap: [AppComponent]

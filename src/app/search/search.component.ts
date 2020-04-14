@@ -19,7 +19,7 @@ export class SearchComponent implements OnInit {
   }
 
   onKey(value: string) {
-    console.log(value) ; 
+    //console.log(value) ; 
     PokemonComponent.currentNameInput = new RegExp(value, 'i') ; 
   }
 
@@ -29,12 +29,12 @@ export class SearchComponent implements OnInit {
     } else if(value.length == 2) {
       value = '0'+value ; 
     }
-    console.log(value) ; 
+    //console.log(value) ; 
     PokemonComponent.currentNumberInput = value ;
   }
 
   onType(value: string){
-    console.log(value) ; 
+    //console.log(value) ; 
     PokemonComponent.currentTypeInput = value ;
   }
 
