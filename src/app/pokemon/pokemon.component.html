@@ -1,0 +1,13 @@
+<div *ngIf="isDisplayable()" class="pokemon">
+    <div class="pokemon-infos">
+        <span class="name">{{name}}<br>n°{{id}}</span>
+        <br>
+        <br> 
+        <div class='list-types'>
+            <span class="type" *ngFor="let typ of type" attr.data-type="{{typ}}">{{typ}}<br></span>
+        </div>   
+    </div>
+    <div class="image">
+        <img src={{img}}>
+    </div>
+</div>

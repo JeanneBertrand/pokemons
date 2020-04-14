@@ -1,0 +1,23 @@
+.header-images {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.pokeball {
+    height: 80px;
+}
+
+.logo {
+    height: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.pokemons {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+

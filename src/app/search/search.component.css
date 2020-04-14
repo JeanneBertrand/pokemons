@@ -1,0 +1,11 @@
+.user-infos {
+    display:flex; 
+    justify-content: center;
+    border : 3px sandybrown double ;
+    
+}
+mat-form-field {
+    margin-top: 1.25em ;
+    margin-left: 5px;
+    margin-right: 5px; 
+}

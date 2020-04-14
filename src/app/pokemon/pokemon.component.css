@@ -1,0 +1,130 @@
+.pokemon {
+    display: flex; 
+    justify-content: space-between;
+    border : 1px lightseagreen solid; 
+    height: 200px;
+    width: 450px;
+    margin: 10px; 
+    background-color: white;
+}
+.pokemon-infos {
+    text-align: left;
+    padding: 2%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.image {
+    height: 200px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+img {
+    text-align: center;
+    align-self: center  ;
+    max-width: 280px;
+    max-height: 100%;
+}
+
+.list-types {
+    display: flex;
+    flex-direction: column;
+}
+
+.type {
+    font-weight: bolder;
+    color: ivory;
+    display: inline-block;
+    width: 66px;
+    margin-bottom: 4px;
+    background: #dbdbdb;
+    background-color: rgb(219, 219, 219);
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: .75rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+    text-transform: uppercase;
+    transition: opacity .4s;
+}
+.type[data-type="Normal"] {
+    background-color: #aa9; 
+} 
+
+.type[data-type="Fire"] {
+    background-color:#f42; 
+} 
+
+.type[data-type="Water"] {
+    background-color:#39f; 
+} 
+
+.type[data-type="Electric"] {
+    background-color:#fc3; 
+} 
+
+.type[data-type="Grass"] {
+    background-color:#7c5; 
+}
+
+.type[data-type="Ice"] {
+    background-color:#6cf; 
+} 
+
+.type[data-type="Fighting"] {
+    background-color:#b54; 
+} 
+
+.type[data-type="Poison"] {
+    background-color: #a59; 
+}
+
+.type[data-type="Ground"] {
+    background-color:#db5; 
+} 
+
+.type[data-type="Flying"] {
+    background-color:#89f; 
+} 
+
+.type[data-type="Psychic"] {
+    background-color:#f59; 
+} 
+
+.type[data-type="Bug"] {
+    background-color:#ab2; 
+} 
+
+.type[data-type="Rock"] {
+    background-color:#ba6; 
+} 
+
+.type[data-type="Ghost"] {
+    background-color:#66b; 
+} 
+
+.type[data-type="Dragon"] {
+    background-color:#76e; 
+} 
+
+.type[data-type="Dark"] {
+    background-color:#754; 
+} 
+
+.type[data-type="Steel"] {
+    background-color:#aab; 
+} 
+
+.type[data-type="Fairy"] {
+    background-color:#e9e; 
+} 
+

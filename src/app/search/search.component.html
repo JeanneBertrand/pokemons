@@ -1,0 +1,21 @@
+  <div class="user-infos" >
+
+    <mat-form-field appearance="fill">
+      <mat-label>Search by name</mat-label>
+      <input matInput type="text" (keyup)="onKey($event.target.value)">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Search by ID</mat-label>
+      <input matInput min="0" max="151" type="number" placeholder="0" (change)="onNumber($event.target.value)" (keyup)="onNumber($event.target.value)">
+    </mat-form-field>
+ 
+    <mat-form-field appearance="fill">
+      <mat-label>Select a type</mat-label>
+      <mat-select ngModel (ngModelChange)="onType($event)">
+        <mat-option value="all types">All types</mat-option>
+        <mat-option *ngFor="let type of typesList" value="{{type}}">{{type}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    
+  </div>
